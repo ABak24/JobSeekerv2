@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Employer.Employer_Create_profile1"
+    android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Employer.Employer_Create_profile1"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please enter necessary information:"
+        android:textSize="30dp"
+        android:layout_margin="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:hint="First name:"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:id="@+id/firstNameEmployer"/>
+
+    <EditText
+        android:id="@+id/lastNameEmployer"
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:hint="Last name:"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:textSize="20dp"/>
+
+
+    <EditText
+        android:id="@+id/companyNameEmployer"
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:hint="Company name:"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/phoneNumberEmployer"
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:hint="Phone number:"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/locationEmployer"
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:hint="Location:"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/descriptionEmployer"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:hint="Bussiness description:"
+        android:textStyle="bold"
+        android:gravity="top"
+        android:layout_margin="10dp"
+        android:textSize="20dp"/>
+
+
+
+
+
+    <Button
+        android:id="@+id/BtnNextEmployerProfile1"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_gravity="right"
+        android:layout_margin="20dp"
+        android:text="Save"
+        android:background="#E2571CE6"/>
+
+
+
+</LinearLayout>
+
+</ScrollView>

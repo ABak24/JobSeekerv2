@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:title="Add new"
+        android:icon="@drawable/add_new"
+        android:id="@+id/employer_fragment_add_new"/>
+    <item android:title="Profile"
+        android:id="@+id/employer_fragment_profile"
+        android:icon="@drawable/profile"/>
+</menu>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/employer_nav"
+    app:startDestination="@id/employer_fragment_add_new">
+
+    <fragment
+        android:id="@+id/employer_fragment_add_new"
+        android:name="com.example.jobseeker.EmployerUI.employer_fragment_add_new"
+        android:label="Add new job post"
+        tools:layout="@layout/fragment_employer_add_new" />
+    <fragment
+        android:id="@+id/employer_fragment_profile"
+        android:name="com.example.jobseeker.EmployerUI.employer_fragment_profile"
+        android:label="Profile"
+        tools:layout="@layout/fragment_employer_profile" />
+
+</navigation>

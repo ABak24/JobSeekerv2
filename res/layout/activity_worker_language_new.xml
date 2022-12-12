@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Worker.worker_language_new"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:text="Add languages you know:"
+        android:textSize="35dp"
+        android:textStyle="bold"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="580dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:id="@+id/containerLanguageNew"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="5dp"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/addNewLanguage"
+            android:layout_width="175dp"
+            android:layout_height="50dp"
+            android:text="Add"
+            android:background="@color/purple_500"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"/>
+
+        <Button
+            android:layout_width="175dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginRight="10dp"
+            android:text="Next"
+            android:layout_margin="10dp"
+            android:id="@+id/btnNextNewLanguage"
+            android:background="@color/purple_500"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

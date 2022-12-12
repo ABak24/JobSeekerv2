@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Worker.worker_education"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter education information:"
+        android:textSize="40dp"
+        android:layout_margin="10dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:inputType="textCapSentences"
+        android:id="@+id/workerEducation"
+        android:layout_width="match_parent"
+        android:layout_height="470dp"
+        android:layout_margin="20dp"
+        android:background="#2A7E7787"
+
+        android:hint="Write something about you education."
+        />
+
+    <Button
+        android:id="@+id/btnNextEducation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Next"
+        android:background="@color/purple_500"
+        android:layout_margin="20dp"/>
+
+
+
+
+</LinearLayout>

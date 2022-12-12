@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">Job Seeker</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="job_title">
+        <item>Software developer</item>
+        <item>Android developer</item>
+        <item>Plumber</item>
+        <item>Barista</item>
+        <item>Professor</item>
+        <item>Carpenter</item>
+        <item>Welder</item>
+        <item>Gym coach</item>
+        <item>Chef</item>
+        <item>Touristic guide</item>
+    </string-array>
+    <string-array name="Full_name">
+        <item>Marko Antony</item>
+        <item>Donald Trump</item>
+        <item>George Bush</item>
+        <item>Albert Einstein</item>
+        <item>Steve Jobs</item>
+        <item>Elon Musk</item>
+        <item>Satoshi Ishi</item>
+        <item>Luka Modric</item>
+        <item>Cristiano Ronaldo</item>
+        <item>Nikola Tesla</item>
+    </string-array>
+
+    <string-array name="Locations">
+        <item>Omis</item>
+        <item>Split</item>
+        <item>Zadar</item>
+        <item>Zagreb</item>
+        <item>Lisbon</item>
+        <item>Porto</item>
+        <item>London</item>
+        <item>New York</item>
+        <item>Chicago</item>
+        <item>Kastela</item>
+    </string-array>
+
+    <string-array name="categories">
+        <item>Engineering</item>
+        <item>Medicine</item>
+        <item>ICT</item>
+        <item>Developing</item>
+        <item>Construction</item>
+        <item>Gastronomy</item>
+        <item>Economics</item>
+        <item>Marketing</item>
+        <item>Automobile</item>
+        <item>Sailing</item>
+
+    </string-array>
+
+    <integer-array name="age">
+        <item>22</item>
+        <item>27</item>
+        <item>32</item>
+        <item>21</item>
+        <item>22</item>
+        <item>29</item>
+        <item>33</item>
+        <item>22</item>
+        <item>27</item>
+        <item>32</item>
+    </integer-array>
+
+    <string-array name="Language_level">
+        <item>Begginer</item>
+        <item>Intermediate</item>
+        <item>Advanced</item>
+        <item>Native</item>
+
+    </string-array>
+</resources>
